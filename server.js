@@ -9,8 +9,7 @@ app.use(bodyParser.json());
 
 sharedlat=0;
 sharedlon=0;
-//matchtopic='owntracks/dj/cambot3k';
-matchtopic='owntracks/steve/Asha';
+matchtopic='owntracks/mark/Markphone1';
 
 app.post('/log/', (req, res) => {
   owt=req.body;
