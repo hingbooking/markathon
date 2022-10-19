@@ -6,13 +6,18 @@
         <script src="/mark.js"></script>
     </head>
     <body>
-        <div style="width: 100vw; height: 100vh" id="map"></div>
+        <div style="width: 100vw; height: 100vh; z-index: 1" id="map"></div>
+        <div><img src="images/trip-details.png" style="width: 38%; height: 50%; position: absolute; right: 0%; bottom: 0%; z-index: 2"></div>
         <script type="text/javascript">
             // Make basemap
             const map = new L.Map('map', { center: new L.LatLng(51.5303, -0.12424), zoom: 11 });
             const osm = new L.TileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
+            // const latlngBounds = new L.LatLngBounds([[51.5303, -0.12424], [51.51532, -0.14134]]);
+            // const driverImage = new L.ImageOverlay('images/trip-details.png', latlngBounds);
+            // const driverImage = new L.TileLayer('images/trip-details.png');
 
             map.addLayer(osm);
+            // map.addLayer(driverImage);
 
             // Load kml file
 
