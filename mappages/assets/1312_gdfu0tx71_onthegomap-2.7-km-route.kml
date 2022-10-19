@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml
+	xmlns="http://www.opengis.net/kml/2.2"
+	xmlns:gx="http://www.google.com/kml/ext/2.2"
+	xmlns:kml="http://www.opengis.net/kml/2.2"
+	xmlns:atom="http://www.w3.org/2005/Atom">
+	<Document>
+		<Style id="icon-1680-FF5252-nodesc-normal">
+			<IconStyle>
+				<color>ff5252ff</color>
+				<scale>1</scale>
+				<Icon>
+					<href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text>
+					<![CDATA[<h3>$[name]</h3>]]>
+				</text>
+			</BalloonStyle>
+		</Style>
+		<Style id="icon-1680-FF5252-nodesc-highlight">
+			<IconStyle>
+				<color>ff5252ff</color>
+				<scale>1</scale>
+				<Icon>
+					<href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text>
+					<![CDATA[<h3>$[name]</h3>]]>
+				</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id="icon-1680-FF5252-nodesc">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1680-FF5252-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1680-FF5252-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="icon-1661-E65100-nodesc-normal">
+			<IconStyle>
+				<color>ff0051e6</color>
+				<scale>1</scale>
+				<Icon>
+					<href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text>
+					<![CDATA[<h3>$[name]</h3>]]>
+				</text>
+			</BalloonStyle>
+		</Style>
+		<Style id="icon-1661-E65100-nodesc-highlight">
+			<IconStyle>
+				<color>ff0051e6</color>
+				<scale>1</scale>
+				<Icon>
+					<href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text>
+					<![CDATA[<h3>$[name]</h3>]]>
+				</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id="icon-1661-E65100-nodesc">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1661-E65100-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1661-E65100-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<name>2.68 km route</name>
+		<atom:link href="https://onthegomap.com"/>
+		<TimeStamp>
+			<when>2022-10-19T13:06:49.742Z</when>
+		</TimeStamp>
+		<description>
+			<![CDATA[<br/><p></p><p><br/>Converted using <b><a href='http://gpx2kml.com' title='Go to gpx2kml.com'>gpx2kml.com</a></b></p><br/>]]>
+		</description>
+		<visibility>1</visibility>
+		<open>1</open>
+		<Style id="red">
+			<LineStyle>
+				<color>C81400FF</color>
+				<width>4</width>
+			</LineStyle>
+		</Style>
+		<Style id="route_red">
+			<LineStyle>
+				<color>961400FF</color>
+				<width>4</width>
+			</LineStyle>
+		</Style>
+		<Style id="green">
+			<LineStyle>
+				<color>C878FF00</color>
+				<width>4</width>
+			</LineStyle>
+		</Style>
+		<Style id="route_green">
+			<LineStyle>
+				<color>9678FF00</color>
+				<width>4</width>
+			</LineStyle>
+		</Style>
+		<Style id="blue">
+			<LineStyle>
+				<color>C8FF7800</color>
+				<width>4</width>
+			</LineStyle>
+		</Style>
+		<Style id="route_blue">
+			<LineStyle>
+				<color>96FF7800</color>
+				<width>4</width>
+			</LineStyle>
+		</Style>
+		<Style id="cyan">
+			<LineStyle>
+				<color>C8F0FF14</color>
+				<width>4</width>
+			</LineStyle>
+		</Style>
+		<Style id="route_cyan">
+			<LineStyle>
+				<color>96F0FF14</color>
+				<width>4</width>
+			</LineStyle>
+		</Style>
+		<Style id="orange">
+			<LineStyle>
+				<color>C81478FF</color>
+				<width>4</width>
+			</LineStyle>
+		</Style>
+		<Style id="route_orange">
+			<LineStyle>
+				<color>961478FF</color>
+				<width>4</width>
+			</LineStyle>
+		</Style>
+		<Style id="dark_green">
+			<LineStyle>
+				<color>C8008C14</color>
+				<width>4</width>
+			</LineStyle>
+		</Style>
+		<Style id="route_dark_green">
+			<LineStyle>
+				<color>96008C14</color>
+				<width>4</width>
+			</LineStyle>
+		</Style>
+		<Style id="purple">
+			<LineStyle>
+				<color>C8FF7878</color>
+				<width>4</width>
+			</LineStyle>
+		</Style>
+		<Style id="route_purple">
+			<LineStyle>
+				<color>96FF7878</color>
+				<width>4</width>
+			</LineStyle>
+		</Style>
+		<Style id="pink">
+			<LineStyle>
+				<color>C8A078F0</color>
+				<width>4</width>
+			</LineStyle>
+		</Style>
+		<Style id="route_pink">
+			<LineStyle>
+				<color>96A078F0</color>
+				<width>4</width>
+			</LineStyle>
+		</Style>
+		<Style id="brown">
+			<LineStyle>
+				<color>C8143C96</color>
+				<width>4</width>
+			</LineStyle>
+		</Style>
+		<Style id="route_brown">
+			<LineStyle>
+				<color>96143C96</color>
+				<width>4</width>
+			</LineStyle>
+		</Style>
+		<Style id="dark_blue">
+			<LineStyle>
+				<color>C8F01414</color>
+				<width>4</width>
+			</LineStyle>
+		</Style>
+		<Style id="route_dark_blue">
+			<LineStyle>
+				<color>96F01414</color>
+				<width>4</width>
+			</LineStyle>
+		</Style>
+		<Folder>
+			<name>Routes</name>
+			<description>A list of routes</description>
+			<visibility>1</visibility>
+			<open>0</open>
+			<Placemark>
+				<visibility>0</visibility>
+				<open>0</open>
+				<styleUrl>#route_blue</styleUrl>
+				<name>2.68 km route</name>
+				<description>Route no. 1</description>
+				<LineString>
+					<extrude>true</extrude>
+					<tessellate>true</tessellate>
+					<altitudeMode>clampToGround</altitudeMode>
+					<coordinates>
+                        -0.12424,51.5303 -0.1241,51.53021 -0.12404,51.53018 -0.1239,51.53008 -0.12378,51.53002 -0.12424,51.5298 -0.12431,51.52978 -0.12443,51.52973 -0.12464,51.52966 -0.12562,51.52925 -0.12592,51.52914 -0.12597,51.52912 -0.12603,51.52911 -0.12615,51.52913 -0.12622,51.5291 -0.12633,51.52905 -0.12634,51.52898 -0.12645,51.52893 -0.12691,51.52875 -0.12732,51.52859 -0.12743,51.52855 -0.12777,51.52842 -0.12787,51.52838 -0.12799,51.52833 -0.12811,51.52834 -0.12828,51.52827 -0.12831,51.52826 -0.12833,51.5282 -0.12853,51.52812 -0.12858,51.52811 -0.12873,51.52804 -0.12886,51.52804 -0.12904,51.52796 -0.12936,51.52785 -0.12942,51.52782 -0.12953,51.52778 -0.12969,51.52772 -0.1298,51.52768 -0.12984,51.52767 -0.13038,51.52746 -0.13044,51.52744 -0.13047,51.52738 -0.13051,51.52736 -0.1306,51.52733 -0.13063,51.52732 -0.13076,51.52727 -0.13097,51.52719 -0.13174,51.52692 -0.13202,51.52682 -0.13209,51.5268 -0.13252,51.52666 -0.13317,51.52643 -0.13339,51.52635 -0.13344,51.52634 -0.13358,51.52629 -0.13374,51.52624 -0.13389,51.52618 -0.13442,51.52599 -0.13535,51.52569 -0.13665,51.52544 -0.13773,51.52516 -0.13844,51.52497 -0.1408,51.52433 -0.14084,51.52429 -0.14111,51.52422 -0.14188,51.52406 -0.14251,51.52393 -0.14287,51.52389 -0.14334,51.52378 -0.1435,51.52371 -0.14362,51.52369 -0.14367,51.52364 -0.14392,51.52349 -0.14406,51.52341 -0.14412,51.52335 -0.14416,51.52325 -0.14377,51.52238 -0.14372,51.52227 -0.14366,51.52213 -0.14361,51.52204 -0.14358,51.52197 -0.14328,51.5213 -0.14303,51.5208 -0.14273,51.5201 -0.14235,51.51928 -0.14229,51.51921 -0.14225,51.5191 -0.14228,51.51906 -0.14219,51.51889 -0.14191,51.51827 -0.14176,51.51795 -0.14162,51.5176 -0.14142,51.51713 -0.1412,51.51666 -0.14097,51.51611 -0.14084,51.51581 -0.1408,51.5157 -0.14071,51.5155 -0.14069,51.51545 -0.14043,51.5155 -0.14035,51.51549 -0.14029,51.51546 -0.14067,51.51541 -0.14081,51.51539 -0.1413,51.51532 -0.14134,51.51532
+                    </coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>FINISH</name>
+				<styleUrl>#icon-1661-E65100-nodesc</styleUrl>
+				<Point>
+					<coordinates>
+                  -0.12424,51.5303
+                </coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Start</name>
+				<styleUrl>#icon-1680-FF5252-nodesc</styleUrl>
+				<Point>
+					<coordinates>
+                  -0.14134,51.51532
+                </coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<LookAt>
+			<longitude>-0.13397</longitude>
+			<latitude>51.52281</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>45</tilt>
+			<range>1013</range>
+			<altitudeMode>clampToGround</altitudeMode>
+		</LookAt>
+	</Document>
+</kml>

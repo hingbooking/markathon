@@ -9,13 +9,15 @@
         <div style="width: 100vw; height: 100vh" id="map"></div>
         <script type="text/javascript">
             // Make basemap
-            const map = new L.Map('map', { center: new L.LatLng(58.4, 43.0), zoom: 11 });
+            const map = new L.Map('map', { center: new L.LatLng(51.5303, -0.12424), zoom: 11 });
             const osm = new L.TileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
 
             map.addLayer(osm);
 
             // Load kml file
-            fetch('assets/Markathon.kml')
+
+            // fetch('assets/Markathon.kml')
+            fetch('assets/1312_gdfu0tx71_onthegomap-2.7-km-route.kml')
                 .then(res => res.text())
                 .then(kmltext => {
                     // Create new kml overlay
@@ -29,7 +31,7 @@
                     map.fitBounds(bounds);
                 }).then(any => {
                     updateMark();
-                    window.setInterval(updateMark,30*1000);
+                    window.setInterval(updateMark,5*1000);
                 });
         </script>
     </body>
