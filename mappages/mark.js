@@ -7,7 +7,11 @@ async function updateMark() {
                 marklocation=data
                 console.log(marklocation)
                 if(mymarker==null) {
-                    mymarker=L.marker([marklocation.lat,marklocation.lon]).addTo(map);
+                  var carIcon = L.icon({
+                    iconUrl: "images/Car1.png",
+                    iconAnchor: [marklocation.lat,marklocation.lon]
+                  });
+                  mymarker=L.marker([marklocation.lat,marklocation.lon], {icon: carIcon}).addTo(map);
                 } else {
                     var newLatLng = new L.LatLng(marklocation.lat, marklocation.lon);
                     mymarker.setLatLng(newLatLng);  
